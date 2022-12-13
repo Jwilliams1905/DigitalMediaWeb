@@ -64,7 +64,7 @@ background-color: aliceblue;
     background-color: lightgreen;
     
     height: 200px;
-    flex: 2 1 auto;
+    flex: -1 -1 auto;
 }
 
 .box3 {
@@ -81,7 +81,9 @@ background-color: aliceblue;
 .section-two {
     background-color: orangered;
     height: 700px;
-
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 /* section 3 youtube video */
@@ -89,12 +91,15 @@ background-color: aliceblue;
 .section-three {
     background-color: lightcoral;
     height: 800px;
-
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    display: flex;
 }
 
 iframe { 
     padding: 5px;
-    
+
 }
 
 
@@ -103,7 +108,15 @@ iframe {
 .section-four {
     background-color: darkslateblue;
     height: 500px;
-    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fig{
+    align-items: center;
+    justify-content: center;
+    display: flex;
 }
 
 /* section 5 media items */
@@ -114,4 +127,21 @@ iframe {
 
 }
 
+.media-container {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    padding: 15px 25px 15px 15px;
+}
+
+.media-container .mediacontent {
+    flex: 1;
+    padding: 10px;
+}
+
+.mediacontent {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: navy;
+    font-size: 20px;
+}
 
