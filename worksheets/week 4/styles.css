@@ -123,8 +123,6 @@ iframe {
 
 .section-five {
     background-color: goldenrod;
-    height: 1400px;
-
 }
 
 .media-container {
@@ -145,3 +143,22 @@ iframe {
     font-size: 20px;
 }
 
+button{
+    border: 1px solid purple;
+    border-radius: 5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: large;
+    margin: 2px;
+    transition-duration: .5s;
+}
+
+button:hover {
+    background-color: aquamarine;
+    color: white;
+}
+
+button:active{
+    background-color: aqua;
+    color: white;
+    transform: translateY(4px);
+}
