@@ -2,18 +2,25 @@
 
 
 body{
-    background-color: limegreen;
+    background-color: #f2f2f2f2;
 }
 
 /* header sytles */
 
 header {
-    background-color: hotpink;
+    background-color: #f29f25;
     padding: 10px 0px 10px 0px;
-    
     
 }
 
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 60px;
+    text-align: center;
+    font-family: 'cheap-pine-sans', sans-serif;
+    font-weight: 400;
+    font-style: normal;;
+}
 ul {
     list-style-type: none;
     padding: 5px;
@@ -79,7 +86,7 @@ background-color: aliceblue;
 /* section 2 center item */
 
 .section-two {
-    background-color: orangered;
+    background-color: #bf1626;
     height: 700px;
     display: flex;
     align-items: center;
@@ -89,7 +96,7 @@ background-color: aliceblue;
 /* section 3 youtube video */
 
 .section-three {
-    background-color: lightcoral;
+    background-color: #d65a12;
     height: 800px;
     align-items: center;
     justify-content: center;
@@ -106,7 +113,7 @@ iframe {
 /* section 4 embed audio */
 
 .section-four {
-    background-color: darkslateblue;
+    background-color: #bf1626;
     height: 500px;
     display: flex;
     justify-content: center;
@@ -122,7 +129,7 @@ iframe {
 /* section 5 media items */
 
 .section-five {
-    background-color: goldenrod;
+    background-color: #d65a12;
 }
 
 .media-container {
@@ -161,4 +168,31 @@ button:active{
     background-color: aqua;
     color: white;
     transform: translateY(4px);
+}
+
+.button-one-section {
+    background-color: #bf1626;
+    padding: 20px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button-top-image{
+    border: 3px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 20px black;
+    width: 70%;
+    align-items: center;
+    justify-content: center;
+}
+
+footer{
+    background-color: #d65a12;
+    height: 30px;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: x-small;
+    color: white;
+    padding: 10px 0px;
 }
