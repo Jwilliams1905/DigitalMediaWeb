@@ -24,8 +24,8 @@ a {
 }
 /*used for normal text*/
 p {
-font-family: sans-serif;
-size: 400px;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+size: 600px;
 }
 h3 {
     font-size: 25px;
@@ -86,4 +86,8 @@ padding: 30px 10%;
 
 .nav__links li :hover {
     color: rgb(255, 0, 0);
+}
+
+.nav__links {
+background-color:aquamarine;
 }
