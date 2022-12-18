@@ -3,10 +3,15 @@ body
 {
     background: rgb(50, 255, 187);
     text-align: center;
+    padding: 0px 0px 0px 0px;
+    
 }
+
+head
+
 /*changes header font*/
 h1, h2, h3{
-    font-family: fantasy;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 h2 {
@@ -15,18 +20,32 @@ h2 {
 
 /*used for text and size on lists*/
 li, button {
-    font-family: sans-serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 50px;
+    padding: 10px 50px;
+    text-align: center;
+    border-color: white;
+    display: inline-flex;
+    margin: 0px -3px;
 }
 /* used for anchor tags*/
 a {
     font-family: fantasy;
+    text-decoration: none;
 }
 /*used for normal text*/
 p {
 font-family: Verdana, Geneva, Tahoma, sans-serif;
-size: 600px;
+font-size: 25px;
+text-align: center;
 }
+
+.typography{
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-size: 40px ;
+text-align: center;
+}
+
 h3 {
     font-size: 25px;
 }
@@ -51,11 +70,6 @@ font-size: 30px;
     list-style-type: none;
 }
 
-#flower
-{
-    height: 20em;
-}
-
 h1 {
 display: flex;
 justify-content: center;
@@ -76,8 +90,8 @@ padding: 30px 10%;
 }
 /*all used for the nav bar*/
 .nav__links li {
-  display: inline-block;
-  padding: 0px 75px;  
+  display: inline-flex;
+  padding: 0px 0px;  
 }
 
 .nav__links li {
