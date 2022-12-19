@@ -4,29 +4,36 @@ body
     background: rgb(50, 255, 187);
     text-align: center;
     padding: 0px 0px 0px 0px;
-    
+    text-decoration: none;
 }
 
-head
+h1 {
+    font-size: 50PX;
+}
 
 /*changes header font*/
 h1, h2, h3{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
 }
 
 h2 {
-    font-size: 50px;
+    font-size: 30px;
 }
 
 /*used for text and size on lists*/
-li, button {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 50px;
+button {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     padding: 10px 50px;
     text-align: center;
     border-color: white;
     display: inline-flex;
-    margin: 0px -3px;
+    margin: 0px 50px;
+    background-color: blanchedalmond;
+    color: black;
+    transform: translateY(5px);
+    font-size: 40px;
+    text-decoration: none;
 }
 /* used for anchor tags*/
 a {
@@ -46,6 +53,11 @@ font-size: 40px ;
 text-align: center;
 }
 
+.typography-carp {
+    font-size: 25px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
 h3 {
     font-size: 25px;
 }
@@ -53,6 +65,7 @@ h3 {
 ul
 {
     list-style-type: circle;
+    margin: 0px;
 }
 
 li
@@ -74,7 +87,7 @@ h1 {
 display: flex;
 justify-content: center;
 align-items: center;
-padding: 20px;
+padding: 0px;
 }
 /*used for general "P" tag texts*/
 p {
@@ -89,19 +102,21 @@ align-items: center;
 padding: 30px 10%;
 }
 /*all used for the nav bar*/
-.nav__links li {
+.nav__links{
   display: inline-flex;
-  padding: 0px 0px;  
+  padding: 0px 0px; 
+  margin: 0px; 
+  background-color: cadetblue 200px 200px;
 }
 
-.nav__links li {
-    transition: all 0.5s ease 0s;
+footer {
+    background-color: aquamarine;
+    height: 30px;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: x-small;
+    color: white;
+    padding: 0px 0px;
+    margin: auto;
 }
 
-.nav__links li :hover {
-    color: rgb(255, 0, 0);
-}
-
-.nav__links {
-background-color:aquamarine;
-}
