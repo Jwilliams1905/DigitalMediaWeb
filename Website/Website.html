@@ -14,8 +14,9 @@
 
     <style>
       body {
-        padding: 5rem 0 7rem 0;
+        padding: 3rem 0 5rem 0;
         background-color: aquamarine;
+        text-align: center;
       }
     </style>
 
@@ -60,7 +61,7 @@
         <img src="Vintage Food Truck Mockup.png" alt="lorem pixum image" class="img-fluid"/>
       </div>
       <div class="col-12 col-md-6 col-lg-3">
-        <p class="pt-3" id="anchor-home">
+        <p class="pt-3" id="anchor-home" color="white">
           Hello, welcome to the GoodFood website, we are a small food truck company based in bristol that do a range of 
           high quality food at a good price, though our options are limited, we ensure that quality comes over quantity and we already
           have plans to extend our menu even after only just opening. we will soon be found in the city centre on most buisness days but until then we will be delivering hope to see you and 
@@ -70,7 +71,9 @@
     </header>
 
     <!-- Boxes section -->
-    <h2 >MENU</h2>
+    <div class="container-fluid">
+    <a href="anchor-menu"></a><h2>MENU</h2>
+    </div>
     <section class="row">
       <div class="col-6 d-md-none d-lg-block col-lg-3">
        
@@ -92,7 +95,9 @@
     </div>
    
     </section>
-    <h2 id="anchor-Menu">COMING SOON</h2>
+    <div class="container-fluid">
+    <h2>COMING SOON</h2>
+    </div>
     <section class = "row">
    <div class="col-6 d-md-none d-lg-block col-lg-3">
       <img src="cake-g5c5d25bb7_1920.jpg" alt="lorem pixum image" class="img-fluid"/>
@@ -110,6 +115,7 @@
           <h3><BOLD>£1.50 EACH</BOLD></h3>
           </div>
     </section>
+    <div class="container-fluid">
     <h2 id="anchor-order">ORDER</h2>
     <label for="Name">ORDER:</label>
     <input type="text" id="Name" name="Name" placeholder="STEAK X2">
@@ -120,15 +126,16 @@
     <label for="Name">ADDRESS:</label>
     <input type="text" id="Name" name="Name" placeholder="10 PONTY PANDY, BS14 2LD">
     <BR>
+     <a href="website2.html"><button><p>SUBMIT ORDER (pay at door)</p></button></a>
+    </div>
     
   </main>
 
-  <!-- Footer -->
-  <footer class="container-fluid pt-4 pb-4 fixed-bottom bg-light text-center">
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut maximus enim lacus</p>
+  <footer class="container-fluid pt-2 pb-1 fixed-bottom bg-dark text-light text-center">
+    <p>If there are any issues contact us at 0120 356 7826 or thegoodfoodbristol@gmail.com</p>
   </footer>
 
-  <!-- bootstrap js bundle from a CDN, you will need to be online for this to work -->
+ 
   <script src="	https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
 
 </body>
