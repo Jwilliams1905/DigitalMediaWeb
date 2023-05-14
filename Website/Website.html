@@ -1,90 +1,104 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Digital media website</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="">
+  <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+  <meta name="generator" content="Hugo 0.80.0">
+  <title>Starter Template · Bootstrap v5.3.0</title>
+
+  <!-- Bootstrap core CSS from a CDN, you will need to be online for this to work -->
+ <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css">
+
+    <style>
+      body {
+        padding: 5rem 0 7rem 0;
+      }
+    </style>
+
 </head>
-<html>
-    <link rel="stylesheet" href="css/style1.css">
 
-    
- 
-    
-    <header>
-    
-        <div class="navbar">
-    
-            <ul class="nav__links">
-    
-                <a href="Website.html"><button>HOME</button></a>
-            
-                <a href="#carp"><button>CARP</button></a>
-            
-                <a href="#TYPOGRAPHY"><button>TYPOGRAPHY</button></a>
+<body>
 
-                <a href="#REFLECTION"><button>REVIEW</button></a>
-    
-            </ul>
-        </div>
+  <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
 
-        
-        
-    
+    <!-- Nav -->
+    <div class="container-fluid">
+
+      <a class="navbar-brand" href="#">Navbar</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExampleDefault"
+        aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+        <ul class="navbar-nav me-auto mb-2 mb-md-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Menu</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+  </nav>
+
+  <!-- Main -->
+  <main class="container">
+
+    <!-- Header -->
+    <header class="row">
+      <div class="col-12 col-md-6 col-lg-9">
+        <img src="Vintage Food Truck Mockup.png" alt="lorem pixum image" class="img-fluid"/>
+      </div>
+      <div class="col-12 col-md-6 col-lg-3">
+        <p class="pt-3">
+          Hello, welcome to the GoodFood website, we are a small food truck company based in bristol that do a range of 
+          high quality food at a good price, though our options are limited, we ensure that quality comes over quantity and we already
+          have plans to extend our menu even after only just opening. we can be found in the city centre on most buisness days and hope to see you and 
+          provide great food at an affordable price. 
+        </p>
+      </div>
     </header>
 
-    <body>
-        <h1 class="title">DIGITAL MEDIA WEBSITE</h1>
-    <div class="box">
-        <a name="carp">
-            <H2>CARP</H2>
-        </a>
-        <a href="Carp.html"> <img src="A3 poster design 3 500px.png" alt="Carp piece" class="carp">
-        </a>
-      
-        <P>"This is the image i chose as the main poster. I chose this one as in my opinion it is the most polished of the three
-             and in some cases could genuinley pass as an official poster, 
-            which is something the other two fall just short of. the overall idea i had was to have a single image background and lay the text over opposite sides (like above) with a transluscent background behind them to make the text pop a bit more than if they were just over the image."</P>
-    
+    <!-- Boxes section -->
+    <section class="row">
+      <div class="col-6 col-md-4 col-lg-3">
+        <h2>MENU</h2>
+        <img src="pasta.jpg" alt="lorem pixum image" class="img-fluid"/>
+        <p>Pasta</p>
+        <h3><bold>£5.99</bold></h3>
+      </div>
+      <div class="col-6 col-md-4 col-lg-3">
+        <img src="https://picsum.photos/300/300?random=2" alt="lorem pixum image" class="img-fluid"/>
+        <p>Steak and chips</p>
+        <h3><bold>£6</bold></h3>
+      </div>
+      <div  class="col-6 col-md-4 col-lg-3">
+      <img src="https://picsum.photos/300/300?random=3" alt="lorem pixum image" class="img-fluid"/>
+      <p>Burger and chips</p>
+      <h3><bold>£5</bold></h3>
     </div>
-    
-    <!--below - lineups with images leading to individual act-->
-    <div class="typo">
-   <a name="TYPOGRAPHY"> <H2>TYPOGRAPHY</H2></a>
-    
-   <strong><h4>PLEASE CLICK ON THE IMAGES FOR A FULL VIEW AND REFLECTION</h4></strong>
-       
-       <a href="Typograhy1.html" target="_blank"> <img src="random-typo-500px.png" alt="TYPO 1" height="200px" width="200px"></a>
-       
-       <a href="Typograhy2.html" target="_blank"> <img src="grid typo 500px.png" alt="TYPO 2" height="200" width="200"></a>
-       
-       <a href="Typograhy3.html"> <img src="trans-typo 500px.png" alt="TYPO 3" height="200" width="200"></a>
-       
-       <a href="Typograhy4.html"> <img src="axial-typo-500px.png" alt="TYPO 4" height="200" width="200"></a>
+      <div class="col-6 d-md-none d-lg-block col-lg-3">
+        <h3>Box 4</h3>
+        <img src="https://picsum.photos/300/300?random=4" alt="lorem pixum image" class="img-fluid"/>
+      </div>
+    </section>
 
-       <br>
-       
-       <a href="Typograhy5.html"> <img src="dilatational-typo.png" alt="TYPO 5" height="200" width="200"></a>
+  </main>
 
-       <a href="Typograhy6.html"> <img src="bilateral-typo.png" alt="TYPO 6" height="200" width="200"></a>
-       
-       <a href="Typograhy7.html"> <img src="modular typo.png" alt="TYPO 7" height="200" width="200"></a>
-       
-       <a href="Typograhy8.html"> <img src="radial-typo.png" alt="TYPO 8" height="200" width="200"></a>
-    </div>
-    <div class="reflect">
-       <a name="REFLECTION"><h3>WEBSITE REVIEW</h3></a>
-       
-       <p>This website was originaly created last year (Digital media foundation, web design) by myself, but had no detailed css and relatively basic html, and didnt use much advanced css like classes or 
-        transitions, focusing primarily on flexboxes and wrapping, as that was all that was required for the module. therefore most of the work done on the website was css work, like removing
-        elements of items that served no purpose here (like javascript), and then changing the html to fit the images and doc files in where i needed them. the only aspects left the same were all to do with its structure, 
-        so things like the nav bar (which actually did get altered), as well as the general flow of the website. 
-        overall i think i did a good job building on what was there before, creating fresh pages like the typography and carp sheets, which included features that were never on the original page.</p>
-    </div>
-        <footer>
-      <A href="Website.html"><STRong><p>RETURN TO HOME</p></STRong></A>
-       </footer>
-    
+  <!-- Footer -->
+  <footer class="container-fluid pt-4 pb-4 fixed-bottom bg-light text-center">
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut maximus enim lacus</p>
+  </footer>
+
+  <!-- bootstrap js bundle from a CDN, you will need to be online for this to work -->
+  <script src="	https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+
 </body>
+
 </html>
