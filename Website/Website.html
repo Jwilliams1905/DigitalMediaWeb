@@ -15,6 +15,7 @@
     <style>
       body {
         padding: 5rem 0 7rem 0;
+        background-color: aquamarine;
       }
     </style>
 
@@ -36,10 +37,13 @@
       <div class="collapse navbar-collapse" id="navbarsExampleDefault">
         <ul class="navbar-nav me-auto mb-2 mb-md-0">
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Home</a>
+            <a class="nav-link active" aria-current="page" href="#anchor-home">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Menu</a>
+            <a class="nav-link" href="#anchor-menu">Menu</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#anchor-order">order</a>
           </li>
         </ul>
       </div>
@@ -56,17 +60,17 @@
         <img src="Vintage Food Truck Mockup.png" alt="lorem pixum image" class="img-fluid"/>
       </div>
       <div class="col-12 col-md-6 col-lg-3">
-        <p class="pt-3">
+        <p class="pt-3" id="anchor-home">
           Hello, welcome to the GoodFood website, we are a small food truck company based in bristol that do a range of 
           high quality food at a good price, though our options are limited, we ensure that quality comes over quantity and we already
-          have plans to extend our menu even after only just opening. we can be found in the city centre on most buisness days and hope to see you and 
+          have plans to extend our menu even after only just opening. we will soon be found in the city centre on most buisness days but until then we will be delivering hope to see you and 
           provide great food at an affordable price. 
         </p>
       </div>
     </header>
 
     <!-- Boxes section -->
-    <h2>MENU</h2>
+    <h2 >MENU</h2>
     <section class="row">
       <div class="col-6 d-md-none d-lg-block col-lg-3">
        
@@ -88,7 +92,7 @@
     </div>
    
     </section>
-    <h2>COMING SOON</h2>
+    <h2 id="anchor-Menu">COMING SOON</h2>
     <section class = "row">
    <div class="col-6 d-md-none d-lg-block col-lg-3">
       <img src="cake-g5c5d25bb7_1920.jpg" alt="lorem pixum image" class="img-fluid"/>
@@ -106,6 +110,17 @@
           <h3><BOLD>£1.50 EACH</BOLD></h3>
           </div>
     </section>
+    <h2 id="anchor-order">ORDER</h2>
+    <label for="Name">ORDER:</label>
+    <input type="text" id="Name" name="Name" placeholder="STEAK X2">
+    <BR>
+    <label for="Name">Name:</label>
+    <input type="text" id="Name" name="Name" placeholder="Jane Doe">
+    <BR>
+    <label for="Name">ADDRESS:</label>
+    <input type="text" id="Name" name="Name" placeholder="10 PONTY PANDY, BS14 2LD">
+    <BR>
+    
   </main>
 
   <!-- Footer -->
